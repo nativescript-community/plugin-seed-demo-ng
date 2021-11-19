@@ -8,6 +8,9 @@
     "publishConfig": {
         "access": "public"
     },
+    "scripts": {
+        "postinstall": "npm --prefix ../demo-snippets install"
+    },
     "files": [
         "App_Resources",
         "hooks",
@@ -38,6 +41,7 @@
         "@angular/platform-browser": "~12.2.4",
         "@angular/platform-browser-dynamic": "~12.2.4",
         "@angular/router": "~12.2.4",
+        "@nativescript-community/template-snippet": "file:../demo-snippets",
         "@nativescript/angular": "~12.2.0",
         "@nativescript/core": "~8.1.1",
         "@nativescript/theme": "~3.0.1",
