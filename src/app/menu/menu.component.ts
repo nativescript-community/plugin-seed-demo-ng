@@ -6,7 +6,6 @@ import { demos } from '../../../../demo-snippets/ng/install.module';
     selector: 'ns-menu',
     templateUrl: './menu.component.html'
 })
-
 export class MenuComponent implements OnInit {
     demos = demos;
     constructor(private router: RouterExtensions) {}
