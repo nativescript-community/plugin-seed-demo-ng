@@ -1,6 +1,6 @@
 {
     "name": "@nativescript/template-hello-world-ng",
-    "main": "src/main.ts",
+    "main": "src/main",
     "version": "8.0.6",
     "author": "NativeScript Team <oss@nativescript.org>",
     "description": "NativeScript Application",
@@ -45,6 +45,7 @@
         "@nativescript/angular": "~12.2.0",
         "@nativescript/core": "~8.1.1",
         "@nativescript/theme": "~3.0.1",
+        "@nativescript-community/template-snippet": "file:../demo-snippets",
         "reflect-metadata": "~0.1.13",
         "rxjs": "~6.6.7",
         "zone.js": "~0.11.4"
@@ -55,7 +56,6 @@
         "@nativescript/types": "8.1.1",
         "@nativescript/webpack": "~5.0.0",
         "@ngtools/webpack": "~12.2.4",
-        "fs-extra": "~10.0.0",
         "typescript": "~4.2.0"
     },
     "private": "true",

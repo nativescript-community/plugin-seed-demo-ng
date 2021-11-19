@@ -12,11 +12,9 @@
     "baseUrl": ".",
     "paths": {
       "~/*": ["src/*"],
-      "@/*": ["src/*"],
-      "*": ["node_modules/*"]
+      "@/*": ["src/*"]
     }
   },
-  "include": ["./src/**/*"],
-  "files": ["./src/main.ts", "./references.d.ts", "./src/polyfills.ts"],
+  "include": ["./src/**/*", "./references.d.ts", "../demo-snippets/ng"],
   "exclude": ["node_modules", "platforms", "e2e"]
 }
