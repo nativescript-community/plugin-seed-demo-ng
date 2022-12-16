@@ -39,7 +39,7 @@
         "@angular/platform-browser": "~14.2.12",
         "@angular/platform-browser-dynamic": "~14.2.12",
         "@angular/router": "~14.2.12",
-        "@nativescript-community/template-snippet": "link:../demo-snippets",
+        "@nativescript-community/template-snippet": "0.0.1",
         "@nativescript/angular": "~14.2.8",
         "@nativescript/core": "~8.4.1",
         "@nativescript/theme": "~3.0.2",
