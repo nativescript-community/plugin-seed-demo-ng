@@ -1,5 +1,6 @@
 {
     "name": "@nativescript/template-hello-world-ng",
+    "private": true,
     "main": "src/main",
     "version": "8.0.6",
     "author": "NativeScript Team <oss@nativescript.org>",
