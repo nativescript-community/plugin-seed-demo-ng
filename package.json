@@ -41,21 +41,21 @@
         "@angular/router": "~16.2.9",
         "@nativescript-community/template-snippet": "*",
         "@nativescript/angular": "~16.0.1",
-        "@nativescript/core": "~8.5.1",
+        "@nativescript/core": "~8.6.1",
         "@nativescript/theme": "~3.0.2",
         "rxjs": "~7.8.1",
         "zone.js": "~0.14.0"
     },
     "devDependencies": {
         "@akylas/nativescript": "~8.4.1",
-        "@angular-devkit/build-angular": "^15.2.6",
-        "@angular/compiler-cli": "^15.2.8",
-        "@nativescript/android": "~8.4.0",
-        "@nativescript/ios": "8.4.0",
-        "@nativescript/types": "~8.4.0",
-        "@nativescript/webpack": "~5.0.14",
-        "@ngtools/webpack": "~15.2.6",
-        "typescript": "~4.8.4"
+        "@angular-devkit/build-angular": "~16.2.0",
+        "@angular/compiler-cli": "~16.2.0",
+        "@nativescript/android": "~8.6.0",
+        "@nativescript/ios": "~8.6.0",
+        "@nativescript/types": "~8.6.0",
+        "@nativescript/webpack": "~5.0.18",
+        "@ngtools/webpack": "~16.2.0",
+        "typescript": "~4.9.3"
     },
     "readme": "NativeScript Application"
 }
