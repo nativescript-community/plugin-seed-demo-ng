@@ -31,31 +31,32 @@
         "url": "https://github.com/NativeScript/NativeScript/issues"
     },
     "dependencies": {
-        "@angular/animations": "~16.2.9",
-        "@angular/common": "~16.2.9",
-        "@angular/compiler": "~16.2.9",
-        "@angular/core": "~16.2.9",
-        "@angular/forms": "~16.2.9",
-        "@angular/platform-browser": "~16.2.9",
-        "@angular/platform-browser-dynamic": "~16.2.9",
-        "@angular/router": "~16.2.9",
+        "@angular/animations": "~17.3.6",
+        "@angular/common": "~17.3.6",
+        "@angular/compiler": "~17.3.6",
+        "@angular/compiler-cli": "~17.3.6",
+        "@angular/core": "~17.3.6",
+        "@angular/forms": "~17.3.6",
+        "@angular/platform-browser": "~17.3.6",
+        "@angular/platform-browser-dynamic": "~17.3.6",
+        "@angular/router": "17.3.6",
         "@nativescript-community/template-snippet": "*",
-        "@nativescript/angular": "~16.0.1",
-        "@nativescript/core": "~8.5.1",
+        "@nativescript/angular": "~17.0.0",
+        "@nativescript/core": "~8.7.2",
         "@nativescript/theme": "~3.0.2",
         "rxjs": "~7.8.1",
-        "zone.js": "~0.14.0"
+        "zone.js": "~0.14.4"
     },
     "devDependencies": {
-        "@akylas/nativescript": "~8.4.1",
-        "@angular-devkit/build-angular": "^15.2.6",
-        "@angular/compiler-cli": "^15.2.8",
-        "@nativescript/android": "~8.4.0",
-        "@nativescript/ios": "8.4.0",
-        "@nativescript/types": "~8.4.0",
-        "@nativescript/webpack": "~5.0.14",
-        "@ngtools/webpack": "~15.2.6",
-        "typescript": "~4.8.4"
+        "@akylas/nativescript": "~8.7.2",
+        "@angular-devkit/build-angular": "^17.3.6",
+        "@angular/compiler-cli": "^17.3.6",
+        "@nativescript/android": "~8.7.0",
+        "@nativescript/ios": "8.7.1",
+        "@nativescript/types": "~8.7.0",
+        "@nativescript/webpack": "~5.0.21",
+        "@ngtools/webpack": "^17.3.6",
+        "typescript": "~5.4.5"
     },
     "readme": "NativeScript Application"
 }
