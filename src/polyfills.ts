@@ -18,3 +18,7 @@ import 'zone.js';
 
 // Add NativeScript specific Zone JS patches
 import '@nativescript/zone-js';
+
+if (typeof queueMicrotask === 'undefined') {
+    global.queueMicrotask = (cb) => Promise.resolve().then(cb);
+}
