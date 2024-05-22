@@ -8,6 +8,13 @@ if (fs.existsSync('../demo-snippets/webpack.config.ng.js')) {
 }
 
 module.exports = (env) => {
+    if (fs.existsSync('../demo-snippets/ng')) {
+        webpack.Utils.addCopyRule({
+            from: '../demo-snippets/ng',
+            to: webpack.Utils.project.getProjectRootPath() + '/src/app/plugin'
+        });
+    }
+
     if (fs.existsSync('../demo-snippets/assets')) {
         webpack.Utils.addCopyRule({
             from: '../demo-snippets/assets',

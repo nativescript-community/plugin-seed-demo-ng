@@ -40,7 +40,6 @@
         "@angular/platform-browser": "~17.3.6",
         "@angular/platform-browser-dynamic": "~17.3.6",
         "@angular/router": "17.3.6",
-        "@nativescript-community/template-snippet": "*",
         "@nativescript/angular": "~17.0.0",
         "@nativescript/core": "~8.7.2",
         "@nativescript/theme": "~3.0.2",
