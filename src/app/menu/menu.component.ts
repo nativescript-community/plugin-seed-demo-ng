@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { RouterExtensions } from '@nativescript/angular';
-import { demos } from '../../../../demo-snippets/ng/install.module';
+import { demos } from '../plugin/install.module';
 
 @Component({
     selector: 'ns-menu',
