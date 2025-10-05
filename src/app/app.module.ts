@@ -15,7 +15,7 @@ import { SwipeMenuComponent } from '@nativescript-community/template-snippet/ng/
 @NgModule({
     bootstrap: [AppComponent],
     imports: [NativeScriptModule, AppRoutingModule, InstallModule],
-    declarations: [AppComponent, MenuComponent, SimpleGridComponent, HorizontalGridComponent, SimpleWaterfallComponent, SimpleTemplatesComponent, SwipeMenuComponent],
+    imports: [AppComponent, MenuComponent, SimpleGridComponent, HorizontalGridComponent, SimpleWaterfallComponent, SimpleTemplatesComponent, SwipeMenuComponent],
     providers: [],
     schemas: [NO_ERRORS_SCHEMA]
 })
