@@ -1,10 +1,12 @@
-import { Component, OnInit } from '@angular/core';
-import { RouterExtensions } from '@nativescript/angular';
+import { Component, NO_ERRORS_SCHEMA, OnInit } from '@angular/core';
+import { NativeScriptCommonModule, RouterExtensions } from '@nativescript/angular';
 import { demos } from '../../../../demo-snippets/ng/install.module';
 
 @Component({
     selector: 'ns-menu',
-    templateUrl: './menu.component.html'
+    templateUrl: './menu.component.html',
+    imports: [NativeScriptCommonModule],
+    schemas: [NO_ERRORS_SCHEMA]
 })
 export class MenuComponent implements OnInit {
     demos = demos;

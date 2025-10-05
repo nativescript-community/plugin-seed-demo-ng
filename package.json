@@ -42,17 +42,16 @@
         "@angular/router": "20.3.3",
         "@nativescript-community/template-snippet": "*",
         "@nativescript/angular": "20.0.0",
-        "@nativescript/core": "~8.9.9",
-        "@nativescript/theme": "~3.1.0",
-        "rxjs": "~7.8.1",
-        "zone.js": "~0.14.4"
+        "@nativescript/core": "8.9.9",
+        "@nativescript/theme": "3.1.0",
+        "rxjs": "7.8.1"
     },
     "devDependencies": {
-        "@akylas/nativescript": "8.9.9",
+        "@akylas/nativescript": "8.9.10",
         "@angular-devkit/build-angular": "20.3.4",
         "@angular/compiler-cli": "20.3.3",
-        "@nativescript/android": "~8.7.0",
-        "@nativescript/ios": "8.7.1",
+        "@nativescript/android": "8.9.2",
+        "@nativescript/ios": "8.9.4",
         "@nativescript/types": "8.9.1",
         "@nativescript/webpack": "5.0.24",
         "@ngtools/webpack": "20.3.4",
