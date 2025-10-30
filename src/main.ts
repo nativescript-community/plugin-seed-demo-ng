@@ -7,13 +7,8 @@ import { routes } from './app/app.routes';
 installPlugin();
 
 runNativeScriptAngularApp({
-  appModuleBootstrap: () => {
-    
-    return bootstrapApplication(AppComponent, {
-      providers: [
-        provideNativeScriptRouter(routes),
-        provideZonelessChangeDetection(),
-      ],
-    });
-  },
+    appModuleBootstrap: () =>
+        bootstrapApplication(AppComponent, {
+            providers: [provideNativeScriptRouter(routes), provideZonelessChangeDetection()]
+        })
 });

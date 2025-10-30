@@ -9,8 +9,4 @@ for (const demo of demos) {
     demoRoutes.push({ path: demo.path, component: demo.component });
 }
 
-export const routes: Routes = [
-  { path: '', redirectTo: '/menu', pathMatch: 'full' }, { path: 'menu', component: MenuComponent },
-  ...demoRoutes
-
-];
+export const routes: Routes = [{ path: '', redirectTo: '/menu', pathMatch: 'full' }, { path: 'menu', component: MenuComponent }, ...demoRoutes];
