@@ -48,11 +48,11 @@
         "zone.js": "~0.14.4"
     },
     "devDependencies": {
-        "@akylas/nativescript": "8.9.9",
-        "@angular-devkit/build-angular": "18.2.21",
-        "@angular/compiler-cli": "18.2.14",
-        "@nativescript/android": "~8.7.0",
-        "@nativescript/ios": "8.7.1",
+        "@akylas/nativescript": "8.9.10",
+        "@angular-devkit/build-angular": "20.3.4",
+        "@angular/compiler-cli": "20.3.3",
+        "@nativescript/android": "8.9.2",
+        "@nativescript/ios": "8.9.5",
         "@nativescript/types": "8.9.1",
         "@nativescript/webpack": "5.0.24",
         "@ngtools/webpack": "18.2.21",
